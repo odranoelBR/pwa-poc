@@ -70,9 +70,9 @@ export default {
       offlineStrategy: 'StaleWhileRevalidate',
      
       //cachingExtensions: '~/helpers/cache/browser.js',
-      // importScripts: [
-      //   '/warmup.js'
-      // ]
+      importScripts: [
+        '/warmup.js'
+      ]
     }
   },
   buildModules: [
